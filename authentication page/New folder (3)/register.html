@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Registration</h1>
+        <form id="registrationForm" onsubmit="return registerUser()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Register</button>
+            <div id="errorMessage" class="error"></div>
+        </form>
+        <p>Already have an account? <a href="index.html">Login here</a>.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</htm
